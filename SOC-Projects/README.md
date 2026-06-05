@@ -152,5 +152,3 @@ The SSH brute-force attack was successfully detected through Wazuh SIEM and inve
 * Firewall Management (iptables)
 * Incident Response
 * Documentation & Reporting
-
-Yeh format GitHub portfolio, LinkedIn showcase, internship applications aur SOC Level 1 interviews ke liye professional lagta hai. PDF ke front page par title, naam **"Abdul Rehman Ahmed"**, date, aur "SOC Analyst Project" add karna bhi acha rahega.
