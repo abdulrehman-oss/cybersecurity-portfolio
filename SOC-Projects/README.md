@@ -34,11 +34,7 @@ To simulate an SSH brute-force attack against a Linux target and demonstrate how
 
 An SSH brute-force attack was launched from the Kali Linux machine against the target server using Ncrack. The attacker attempted multiple username/password combinations to gain unauthorized access.
 
-### Screenshot 1 Caption
-
 **Figure 1: SSH brute-force attack launched from Kali Linux using Ncrack against the target SSH service.**
-
-*(Place Screenshot 1 here)*
 
 ### Analysis
 
@@ -52,11 +48,7 @@ The attack generated repeated authentication failures on the target host. These 
 
 Wazuh detected multiple failed SSH authentication attempts and generated security alerts. The alerts were correlated over time, indicating a brute-force attack pattern.
 
-### Screenshot 2 Caption
-
 **Figure 2: Wazuh dashboard displaying SSH brute-force related alerts and event timeline.**
-
-*(Place Screenshot 2 here)*
 
 ### Timeline of Events
 
@@ -78,11 +70,7 @@ Wazuh detected multiple failed SSH authentication attempts and generated securit
 
 Investigation of authentication logs revealed repeated failed login attempts originating from a single source system. Such behavior is a common indicator of brute-force activity.
 
-### Screenshot 3 Caption
-
 **Figure 3: Authentication logs showing multiple failed SSH login attempts and associated security events.**
-
-*(Place Screenshot 3 here)*
 
 ### Identified IOCs
 
@@ -104,11 +92,7 @@ Although no successful compromise occurred, the attack demonstrated an active at
 
 After identifying the malicious source, firewall rules were implemented using iptables to block the attacking IP address and prevent further connection attempts.
 
-### Screenshot 4 Caption
-
 **Figure 4: Firewall configuration showing the malicious source blocked using iptables rules.**
-
-*(Place Screenshot 4 here)*
 
 ### Mitigation Steps
 
